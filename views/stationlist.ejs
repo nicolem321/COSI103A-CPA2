@@ -1,0 +1,49 @@
+<h1>The stations are</h1>
+Here we want a ul list with station id or name search up
+<hr>
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Station IDx</th>
+            <th>name</th>
+            <th>English Name</th>
+            <th>Line Name</th>
+            <th>English Line Name</th>
+            <th>Line Color Hex</th>
+        </tr>
+    </thead>
+    <tbody>
+    <% for (station of stations) { %>
+
+      <tr class="mb-2">
+        <td>
+            <strong><%= station.stationId %></strong>
+        </td>
+        <td>
+            <strong><%= station.name %></strong>
+        </td>
+
+        <td>
+            <strong><%= station.nameEng %></strong>
+        </td>
+
+        <td>
+            <strong><%= station.lineName %></strong>
+        </td>
+
+        <td>
+            <strong><%= station.lineNameEng %></strong>
+        </td>
+        <td>
+            <strong><%= station.lineColorHex %></strong>
+        </td>
+    </tr>
+    <% } %>
+    </tbody>
+</table>
+
+<pre>
+    <!--
+        <%= JSON.stringify(stations,null,5) %>
+    -->
+</pre>
