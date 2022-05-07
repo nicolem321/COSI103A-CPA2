@@ -8,4 +8,6 @@ The way to use my app is to input the station id, for example, E11, and it will 
 <img width="1141" alt="image" src="https://user-images.githubusercontent.com/82045186/167231497-9c5550cf-e642-4fb6-89e3-5a67a8906b27.png">
 
 
-To run it locally, you just need to download my project locally, call "npm install", followed by "npm start", then put "localhost:8000"
+To run it locally, you just need to download my project locally, call "npm install", followed by "npm start", then put "localhost:8000" in your web brower
+
+Here is a movie I made searching as a demo to the app
